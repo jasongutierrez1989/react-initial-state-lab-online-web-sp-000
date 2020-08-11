@@ -1,88 +1,16 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 5,
-    "passes": 5,
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2020-08-11T21:30:20.662Z",
-    "end": "2020-08-11T21:30:20.680Z",
-    "duration": 18
+    "start": "2020-08-11T21:31:12.472Z",
+    "end": "2020-08-11T21:31:12.473Z",
+    "duration": 1
   },
-  "tests": [
-    {
-      "title": "should set the `currentSlideIndex` to 0 on its state",
-      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text",
-      "fullTitle": "<ImageSlider /> render the correct text",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
-      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text when the timer is not 0",
-      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text when the timer is 0",
-      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 7,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ],
+  "tests": [],
   "pending": [],
   "failures": [],
-  "passes": [
-    {
-      "title": "should set the `currentSlideIndex` to 0 on its state",
-      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text",
-      "fullTitle": "<ImageSlider /> render the correct text",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
-      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text when the timer is not 0",
-      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "render the correct text when the timer is 0",
-      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 7,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ]
+  "passes": []
 }
