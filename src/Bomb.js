@@ -5,11 +5,24 @@ class Bomb extends Component{
   constructor(props){
     super(props)
     this.state = {
-      secondsLeft: props.initialCount
+      secondsLeft: this.props.initialCount
+    }
+    this.update = this.update.bind(this)
+    this.beginTimer()
+  }
+
+  beginTimer = () => setInterval(this.update, 1000)
+
+  update = () => {
+    const newCount = this.state.secondsLeft - 1
+    if(newCount >=0){
+      this.setState({
+        secondsLeft: newCount
+      })
     }
   }
   render(){
-    return
+    return return this.state.secondsLeft === 0 ? "Boom!" :`${this.state.secondsLeft} seconds left before I go boom!`
   }
 }
 
