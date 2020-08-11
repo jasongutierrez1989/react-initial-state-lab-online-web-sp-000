@@ -8,7 +8,9 @@ class ImageSlider extends Component{
     }
   }
   render(){
-    return
+    return(
+      console.log("I am on slide " + this.props.currentSlideIndex);
+    )
   }
 }
 
