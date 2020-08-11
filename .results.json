@@ -5,22 +5,22 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2020-08-11T21:30:06.667Z",
-    "end": "2020-08-11T21:30:06.684Z",
-    "duration": 17
+    "start": "2020-08-11T21:30:20.662Z",
+    "end": "2020-08-11T21:30:20.680Z",
+    "duration": 18
   },
   "tests": [
     {
       "title": "should set the `currentSlideIndex` to 0 on its state",
       "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text",
       "fullTitle": "<ImageSlider /> render the correct text",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,14 +34,14 @@
     {
       "title": "render the correct text when the timer is not 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text when the timer is 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 6,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     }
@@ -52,14 +52,14 @@
     {
       "title": "should set the `currentSlideIndex` to 0 on its state",
       "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text",
       "fullTitle": "<ImageSlider /> render the correct text",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -73,14 +73,14 @@
     {
       "title": "render the correct text when the timer is not 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "render the correct text when the timer is 0",
       "fullTitle": "<Bomb /> render the correct text when the timer is 0",
-      "duration": 6,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     }
