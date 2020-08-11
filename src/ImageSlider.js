@@ -8,7 +8,7 @@ class ImageSlider extends Component{
     }
   }
   render(){
-    return 'I am on slide ${this.state.currentSlideIndex}';
+    return 'I am on slide ${this.state.currentSlideIndex}'
   }
 }
 
